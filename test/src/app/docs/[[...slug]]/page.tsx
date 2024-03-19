@@ -12,7 +12,6 @@ export default function Docs({ params }: { params: { slug: string[] } }) {
   return (
     <>
       <h1>This is the docs page </h1>
-      {console.log(params)}
     </>
   );
 }
